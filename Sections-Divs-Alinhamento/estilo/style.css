@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    /*
+        PARA CENTRALIZAR, É **OBRIGATÓRIO** AS DECLARAÇÕES:
+
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    */
+}
+
+section {
+    position: absolute;
+    display: block;
+
+}
+
+div#caixa-01 {
+    background-color: green;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    height: 200px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+
+div#caixa-02 {
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 200px;
+    height: 200px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
